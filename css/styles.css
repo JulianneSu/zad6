@@ -1,0 +1,22 @@
+.nomark {
+    list-style-type:  none;
+  }
+
+  .socimg
+  {
+    width: 50px;
+    height: auto;
+  }
+  .title
+  {
+    font-size: 30px;
+  }
+  body
+  {
+font-family: 'Franklin Gothic Medium';
+  }
+
+  a
+  {
+    color: orange;
+  }
