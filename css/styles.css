@@ -2,22 +2,26 @@
 
   .socimg
   {
-    width: 50px;
+    width: 30px;
     height: auto;
   }
+
   .title
   {
     font-size: 30px;
   }
+
   body
   {
 font-family: 'Franklin Gothic Medium';
 margin:0;
+
   }
 
-  a
+  .menu_buttons
   {
-    color: orange;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
   }
 
   .text_flex
@@ -31,12 +35,12 @@ margin:0;
     margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-size: 25px;
     list-style-type:  none;
     height: 80px;
-    background-color: rosybrown;
+    background-color: rgb(234, 172, 1);
 
   }
 
@@ -51,23 +55,27 @@ margin:0;
     position: absolute;
     display: flex;
     height: 30px;
-    background-color: rosybrown;
+    background-color: rgb(253, 139, 0);
   }
 
   .img_head
   {
-   z-index: 1;
+   z-index: 3;
+   background: url(../images/gdpr-technology-1440x786.jpg);
+    height: 300px;
     width: 100%;
-    height: 500px;
+    background-repeat: no-repeat;
+    object-fit: contain ;
+  
   }
 
   .text_on_img
   {
     z-index: 2;
     position: absolute;
-    top: 300px;
+    top: 200px;
     right: 50%;
-
+    color: white;
   }
 
   .par
@@ -105,4 +113,61 @@ margin:0;
     font-size: 40px;
     padding: 10px 0 30px 0;
     
+  }
+
+  .uslugi
+  {
+    margin: 0px 20% 50px 20%;  
+    text-align: left;
+    padding: 0 0 0 17px;
+  }
+  
+  .bottom_block
+  {
+  background:black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0 50px 0;
+  
+
+  }
+
+  .colored_h1
+  {
+    margin: 50px 20% 50px 20%; 
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+  }
+
+  .white_text
+  {
+    margin: 0px 20% 50px 20%;  
+    text-align: left;
+  }
+
+  button
+  {
+    display: block;
+
+    font-size: 20px; /* Размер текста */
+    color:white; /* Белый цвет текста */
+    background-color: transparent; /* Цвет фона кнопки */
+    border-width: 3px; /* Убираем рамку */
+    border-color: white;
+    border-radius: 0.4em; /* Радиус скругления */
+   width: 300px;
+    height: 50px;
+    margin: 10px auto 50px auto;
+ font-family:'Franklin Gothic Medium' ;
+    text-align: center;
+  }
+
+  .footer
+  {
+    display: flex;
+    flex-direction: row;
   }
