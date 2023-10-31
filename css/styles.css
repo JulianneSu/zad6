@@ -4,6 +4,7 @@
   {
     width: 30px;
     height: auto;
+    margin: 5px;
   }
 
   .title
@@ -13,7 +14,8 @@
 
   body
   {
-font-family: 'Franklin Gothic Medium';
+font-family: Verdana, Geneva, sans-serif;
+;
 margin:0;
 
   }
@@ -39,7 +41,7 @@ margin:0;
     align-items: center;
     font-size: 25px;
     list-style-type:  none;
-    height: 80px;
+    height: 70px;
     background-color: rgb(234, 172, 1);
 
   }
@@ -65,7 +67,7 @@ margin:0;
     height: 300px;
     width: 100%;
     background-repeat: no-repeat;
-    object-fit: contain ;
+ background-size: cover;
   
   }
 
@@ -76,6 +78,8 @@ margin:0;
     top: 200px;
     right: 50%;
     color: white;
+    font-size: 40px;
+    font-weight: bold;
   }
 
   .par
@@ -105,6 +109,7 @@ margin:0;
   {
     width:50px;
     height: auto;
+    margin: 10px;
   }
 
   .competentions
@@ -120,7 +125,15 @@ margin:0;
     margin: 0px 20% 50px 20%;  
     text-align: left;
     padding: 0 0 0 17px;
+    margin-right: 0;
   }
+
+.uslugi_flex
+{
+  display: flex;
+  width: 100%;
+
+}
   
   .bottom_block
   {
@@ -162,7 +175,8 @@ margin:0;
    width: 300px;
     height: 50px;
     margin: 10px auto 50px auto;
- font-family:'Franklin Gothic Medium' ;
+ font-family:Verdana, Geneva, sans-serif;
+
     text-align: center;
   }
 
@@ -171,3 +185,13 @@ margin:0;
     display: flex;
     flex-direction: row;
   }
+
+  .footer_text
+  {position: relative;
+    bottom: 40px;
+    text-align: right;
+    margin: 10px;
+    color:rgb(82, 82, 82);
+  }
+
+  
