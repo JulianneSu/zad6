@@ -323,3 +323,20 @@ top: -4px;
 
 }
 
+.contacts_flex
+{
+  margin: 50px 10% 50px 10%;  
+  display: flex;
+  width: 100%;
+
+}
+
+.contacts_elements
+{
+  margin: 30px 100px 30px 50px ;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
