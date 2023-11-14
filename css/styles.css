@@ -267,16 +267,42 @@ color: rgb(234, 172, 1);
 
   }
 
+  
   .portofolio_img1
   {
     
-    bottom: 300px;
+    left: 300px;
+  bottom: 120px;
     height: 200px;
     width: auto;
     background-repeat: no-repeat;
  background-size: cover;
+ position: relative;
   }
 
+  .portofolio_img2
+  {
+    
+    left: 0px;
+  bottom: 120px;
+    height: 200px;
+    width: auto;
+    background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+  }
+
+  .portofolio_img3
+  {
+    
+    left: 100px;
+  bottom: 120px;
+    height: 200px;
+    width: auto;
+    background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+  }
   .portfolio_flex
   {
 display: flex;
